@@ -30,7 +30,8 @@ A modular ROS system that **maps, localizes, detects Coke cans in 3D, and naviga
    - **AMCL** localizes the robot on the map.  
    - **move_base** plans a path to the nearest `coke_can_i` frame with obstacle/cost layers and recovery behaviors.
 <img width="699" height="450" alt="image" src="https://github.com/user-attachments/assets/b12db5ec-de23-4bb8-a67f-a6c5669a143c" />
-<img width="771" height="606" alt="image" src="https://github.com/user-attachments/assets/3cc87564-4000-4031-82c8-e9e8fe0ab10d" />
+<img width="908" height="689" alt="image" src="https://github.com/user-attachments/assets/28587e9f-4c2c-446a-8c11-4a7377540d09" />
+
 
 4. **Visualization & Debugging**  
    - RViz shows annotated camera feed, can markers, TF tree, global/local costmaps, and planned paths.
