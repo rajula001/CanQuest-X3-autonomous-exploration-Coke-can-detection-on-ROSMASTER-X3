@@ -76,7 +76,6 @@ A modular ROS system that **maps, localizes, detects Coke cans in 3D, and naviga
 
 ## Notes
 - This is a documentation-only repo; source code and training assets are private.
-- The architecture and interfaces are provided to guide reproduction on similar platforms.
 
 ## License
 MIT
