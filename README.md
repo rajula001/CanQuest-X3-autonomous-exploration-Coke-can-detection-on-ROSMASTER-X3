@@ -21,18 +21,18 @@ A modular ROS system that **maps, localizes, detects Coke cans in 3D, and naviga
 <img width="611" height="339" alt="image" src="https://github.com/user-attachments/assets/47955ea4-ef41-4afd-9ef1-b4b640a1f9aa" />
 
 
-3. **Depth Fusion & 3D Pose**  
+2. **Depth Fusion & 3D Pose**  
    - For each bbox, sample depth from `/camera/depth/*` and back-project to 3D using camera intrinsics.  
    - Publish TF frames `coke_can_i` (in `odom` / `map`) and **RViz** markers.
 <img width="359" height="271" alt="image" src="https://github.com/user-attachments/assets/dfb2275f-542c-4a7f-bcb2-46ee927b66cd" />
 
-4. **Localization & Planning**  
+3. **Localization & Planning**  
    - **AMCL** localizes the robot on the map.  
    - **move_base** plans a path to the nearest `coke_can_i` frame with obstacle/cost layers and recovery behaviors.
 <img width="699" height="450" alt="image" src="https://github.com/user-attachments/assets/b12db5ec-de23-4bb8-a67f-a6c5669a143c" />
 <img width="771" height="606" alt="image" src="https://github.com/user-attachments/assets/3cc87564-4000-4031-82c8-e9e8fe0ab10d" />
 
-5. **Visualization & Debugging**  
+4. **Visualization & Debugging**  
    - RViz shows annotated camera feed, can markers, TF tree, global/local costmaps, and planned paths.
 
 ---
